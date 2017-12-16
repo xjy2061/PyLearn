@@ -3,7 +3,7 @@ import urllib.parse
 
 
 def read_check():
-    stream = open(r"move_quotes")
+    stream = open(r"movie_quotes")
     content = stream.read()
     print(content)
     profanity_check(content)
